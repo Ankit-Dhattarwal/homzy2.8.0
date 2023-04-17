@@ -101,6 +101,205 @@ class _HomeScreenState extends State<HomeScreen> {
   //   );
   // }
 
+  Widget SalonServiceConatiner(BuildContext context, String image, String name1, String name2, int price, String desc){
+    return  Container(
+      //   width: 200,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Container(
+            height : 150,
+            margin: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+            ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Stack(
+                  children: [
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => ServiceInfo (name: name1 + name2, img: Image.asset(image), price: price, desc: desc,)),
+                        );
+                      },
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(3),
+                          topRight: Radius.circular(3),
+                          bottomLeft: Radius.circular(3),
+                          bottomRight: Radius.circular(3),
+                        ),
+                        child: Image.asset(image, height: 100, width: 100, fit: BoxFit.cover,),
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(height: 8,),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 5),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(name1,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15,
+                        ),
+                      ),
+                      Text(name2,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15,
+                        ),),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+  Widget ServiceCategories(BuildContext context, String image , String name1, String name2, int price, String desc){
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Container(
+          height : 200,
+          margin: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Stack(
+                children: [
+                  InkWell(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => ServiceInfo(name: name1 + name2, img: Image.asset(image), price: price, desc: desc,)),
+                      );
+                    },
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(5),
+                        topRight: Radius.circular(5),
+                        bottomLeft: Radius.circular(5),
+                        bottomRight: Radius.circular(5),
+                      ),
+                      child: Image.asset(image, height: 150, width: 150, fit: BoxFit.cover,),
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(height: 8,),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 5),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(name1,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 15,
+                      ),
+                    ),
+                    Text(name2,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 15,
+                      ),),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+  Widget SmallCategories(BuildContext context , String image , String name){
+    return  Expanded(
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(15),
+          color: Color(0xFFe9e4f4),
+        ),
+        margin: EdgeInsets.only(left: 10, right: 10),
+        height: 100,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            CircleAvatar(
+              child: Image.asset(image, height: 50, width: 50),
+            ),
+            SizedBox(height: 8),
+            Padding(
+              padding: EdgeInsets.all(0.5),
+              child: Center(child:
+              Text(name,
+                style:
+                TextStyle(fontSize: 16,
+                  color:
+                  Colors.black54,
+                ),
+              ),
+              ),
+            ),
+          ],
+        ),
+
+      ),
+    );
+  }
+  Widget SmallCategoriesBasic(BuildContext context, String image, String name) {
+    return Expanded(
+      child: GestureDetector(
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => CleaningServiceScreen()),
+          );
+        },
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(15),
+            color: Color(0xFFe9e4f4),
+          ),
+          margin: EdgeInsets.only(left: 10, right: 10),
+          height: 100,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              CircleAvatar(
+                child: Image.asset(image, height: 50, width: 50),
+              ),
+
+              SizedBox(height: 8),
+              Padding(
+                padding: EdgeInsets.all(0.5),
+                child: Center(
+                  child: Text(
+                    name,
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.black54,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
 
   @override
 
