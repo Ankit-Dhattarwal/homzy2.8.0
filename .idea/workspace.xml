@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08ba082b-b4df-4f33-bd8b-b5842d7446f4" name="Changes" comment="this is full fledge user app made by shashi kant" />
+    <list default="true" id="08ba082b-b4df-4f33-bd8b-b5842d7446f4" name="Changes" comment="this is full fledge user app made by shashi kant">
+      <change afterPath="$PROJECT_DIR$/assets/salon_men/child_hari_cut.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_men/facial_trement_2.0.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_men/men_color_3.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_men/men_salon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_men/men_shaving_4.1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_women/change_pixel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_women/coloring hair_women_sec.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_women/hair_coloring_6.6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_women/hair_cutt_women_5.2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_women/makup_women_3.1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_women/manicure_3.1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_women/women_haircut_2.0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/salon_women/women_hari_coloring_3.6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sub_service/Electric_image/ac_repair_3.3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sub_service/Electric_image/lighting_3.3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sub_service/Electric_image/washing_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sub_service/Electric_image/washing_image_2.0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sub_service/Electric_image/washing_machine_3.2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sub_service/plumber_image/470110063 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sub_service/plumber_image/faucet_4.1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sub_service/plumber_image/pipe_4.1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sub_service/plumber_image/plumber_subscreen.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sub_service/plumber_image/water_heater_3.3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sub_service/plumber_image/water_system_3.2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sub_service/Electric_image/washing_image.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sub_service/Electric_image/washing_image_1.0.jpeg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,9 +59,21 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/sub_service/plumber_image" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/sub_service/plumber_image" />
+      <recent name="$PROJECT_DIR$/assets/sub_service/Electric_image" />
+      <recent name="$PROJECT_DIR$/assets/salon_women" />
+      <recent name="$PROJECT_DIR$/assets/salon_men" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/salon_women" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
@@ -73,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681772800092</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="this is full fledge user app made by shashi kant">
+      <created>1681772874706</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681772874706</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
